@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Peluche Pulpo Reversible 333333",
+    "description": "El famoso pulpo que expresa tus emociones. Súper suave y de colores vibrantes.",
+    "price": 12.99,
+    "originalPrice": 18.00,
+    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
+    "category": "Juguetes",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Lámpara de Noche Unicornio",
+    "description": "Ilumina los sueños con esta lámpara LED táctil que cambia de color. Batería recargable.",
+    "price": 24.50,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
+    "category": "Decoración",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "name": "Set de Marcadores Pastel",
+    "description": "24 tonos pastel para tus dibujos más creativos. Punta doble para trazos finos y gruesos.",
+    "price": 15.00,
+    "originalPrice": 22.00,
+    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
+    "category": "Librería",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Botella de Agua Motivacional",
+    "description": "1 Litro con marcas de tiempo para mantenerte hidratado. Libre de BPA y con sorbete.",
+    "price": 19.99,
+    "originalPrice": 25.00,
+    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
+    "category": "Accesorios",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Mini Cámara Instantánea",
+    "description": "Captura momentos especiales al instante. Incluye un pack de 10 fotos. Color Rosa Pastel.",
+    "price": 89.00,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
+    "category": "Tecnología",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "name": "Cojín Nube Sonriente",
+    "description": "El compañero perfecto para dormir. Tela antialérgica y diseño ultra tierno.",
+    "price": 35.00,
+    "originalPrice": 45.00,
+    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
+    "category": "Hogar",
+    "featured": false
+  }
+]
