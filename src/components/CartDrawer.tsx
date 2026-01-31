@@ -8,16 +8,16 @@ export default function CartDrawer() {
     const { cart, isCartOpen, setIsCartOpen, removeFromCart, updateQuantity, totalPrice, totalItems, clearCart } = useCart();
 
     const sendWhatsAppMessage = () => {
-        const phoneNumber = "+5492234218873"; // Replace with actual number
+        const phoneNumber = "+5492233443659"; // Replace with actual number
         const businessName = "Chuli Tienda";
 
         let message = `¡Hola ${businessName}! Quería realizar el siguiente pedido:\n\n`;
 
         cart.forEach((item) => {
-            message += `• ${item.name} (x${item.quantity}) - $${(item.price * item.quantity).toFixed(2)}\n`;
+            message += `• ${item.name} (x${item.quantity}) - $${(item.price * item.quantity)}\n`;
         });
 
-        message += `\n*Total: $${totalPrice.toFixed(2)}*\n\n`;
+        message += `\n*Total: $${totalPrice}*\n\n`;
         message += `¿Me confirman si tienen stock de estos productos? ¡Muchas gracias!`;
 
         const encodedMessage = encodeURIComponent(message);
@@ -84,7 +84,7 @@ export default function CartDrawer() {
                                             <div className="flex flex-1 flex-col">
                                                 <div className="flex justify-between">
                                                     <h4 className="font-bold text-slate-800 dark:text-slate-100">{item.name}</h4>
-                                                    <p className="font-black text-slate-900 dark:text-white">${(item.price * item.quantity).toFixed(2)}</p>
+                                                    <p className="font-black text-slate-900 dark:text-white">${(item.price * item.quantity)}</p>
                                                 </div>
                                                 <div className="mt-auto flex items-center justify-between">
                                                     <div className="flex items-center rounded-xl border border-slate-200 p-1 dark:border-slate-800">
@@ -121,7 +121,7 @@ export default function CartDrawer() {
                             <div className="border-t px-6 py-8 dark:border-slate-800">
                                 <div className="flex justify-between text-base font-bold text-slate-900 dark:text-white">
                                     <span>Total</span>
-                                    <span className="text-2xl font-black text-primary">${totalPrice.toFixed(2)}</span>
+                                    <span className="text-2xl font-black text-primary">${totalPrice}</span>
                                 </div>
                                 <p className="mt-1 text-sm text-slate-500">El pedido se comunica por whatsapp y luego nos contactamos.</p>
                                 <button

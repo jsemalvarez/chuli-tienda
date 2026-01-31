@@ -22,7 +22,7 @@ export default function ProductCard({ product }: { product: Product }) {
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
                 {discount && (
-                    <div className="absolute top-3 left-3 rounded-full bg-accent px-3 py-1 text-xs font-bold text-white shadow-lg animate-pulse">
+                    <div className="absolute top-3 left-3 rounded-full bg-accent px-3 py-1 text-xs font-bold text-white shadow-lg">
                         -{discount}%
                     </div>
                 )}
@@ -51,11 +51,11 @@ export default function ProductCard({ product }: { product: Product }) {
                     <div className="flex flex-col">
                         {product.originalPrice && (
                             <span className="text-xs text-slate-400 line-through">
-                                ${product.originalPrice.toFixed(2)}
+                                ${product.originalPrice}
                             </span>
                         )}
                         <span className="text-2xl font-black text-slate-900 dark:text-white">
-                            ${product.price.toFixed(2)}
+                            ${product.price}
                         </span>
                     </div>
                     <button

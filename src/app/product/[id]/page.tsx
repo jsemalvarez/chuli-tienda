@@ -122,10 +122,10 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
                         </h1>
 
                         <div className="mt-6 flex items-baseline gap-4">
-                            <span className="text-4xl font-black text-primary">${product.price.toFixed(2)}</span>
+                            <span className="text-4xl font-black text-primary">${product.price}</span>
                             {product.originalPrice && (
                                 <span className="text-xl text-slate-400 line-through">
-                                    ${product.originalPrice.toFixed(2)}
+                                    ${product.originalPrice}
                                 </span>
                             )}
                         </div>
