@@ -1,116 +1,223 @@
 [
   {
     "id": 1,
-    "name": "Pizarra c/Proyector",
-    "description": "El famoso pulpo que expresa tus emociones. Súper suave y de colores vibrantes.",
-    "price": 27.500,
-    "originalPrice": 39.000,
-    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
+    "name": "Pizarra Mágica LED 20x30",
+    "description": "Este panel de acrílico transparente te permite escribir, dibujar y crear mensajes que brillan gracias a su base con iluminación LED. Es perfecta como lámpara de noche decorativa o para que los más chicos se diviertan dibujando sin parar.",
+    "price": 18000,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769871505/pizarra_led_lf9xbn.webp",
     "categories": [
+      "Infantil",
       "Juguetes",
       "Regalos"
     ],
     "featured": true,
-    "stock": true,
+    "stock": false,
     "details": [
-      "Material: Tela hipoalergénica premium",
-      "Tamaño: 20cm x 15cm aprox.",
-      "Lavable a máquina (programa suave)"
+      "Efecto Neón: Al encender la base, tus dibujos brillan con una intensidad increíble",
+      "Kit Completo: Incluye 7 marcadores de colores especiales y un paño de limpieza para borrar y volver a empezar.",
+      "Conexión USB: Se alimenta mediante cable USB (incluido), ideal para conectar a cualquier cargador o computadora.",
+      "Tamaño Ideal: Placa de acrílico de 20x30 cm con soporte estable."
     ]
   },
   {
     "id": 2,
-    "name": "Lámpara de Noche Unicornio",
-    "description": "Ilumina los sueños con esta lámpara LED táctil que cambia de color. Batería recargable.",
-    "price": 24.5,
+    "name": "Mate Listo Autocebante - 750ml",
+    "description": "La solución perfecta para los amantes del mate que están siempre en movimiento. Este Mate Listo combina un termo de alta calidad con un mate incorporado, permitiéndote cebar automáticamente de forma súper práctica.",
+    "price": 22500,
     "originalPrice": null,
-    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769878309/mate_autocebante_750_ijszgq.webp",
     "categories": [
-      "Decoración",
-      "Iluminación"
+      "Hogar"
     ],
     "featured": false,
-    "stock": true,
+    "stock": false,
     "details": [
-      "Luz LED de bajo consumo",
-      "Carga por USB (cable incluido)",
-      "Material: Silicona suave libre de BPA"
+      "Capacidad: 750 ml.",
+      "Material: Acero inoxidable de doble capa (mantiene la temperatura por horas).",
+      "Sistema: Autocebante (el agua sube al succionar o presionar).",
+      "Práctico: Ideal para viajes, oficina o estudiar."
     ]
   },
   {
     "id": 3,
-    "name": "Set de Marcadores Pastel",
-    "description": "24 tonos pastel para tus dibujos más creativos. Punta doble para trazos finos y gruesos.",
-    "price": 15.0,
-    "originalPrice": 22.0,
-    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
+    "name": "Pizarra Didáctica con Proyector",
+    "description": "¡Despertá la creatividad de los más chicos con la pizarra mágica. Gracias a su tamaño pequeño, es ergonómica e ideal para niños a partir de los 3 años.",
+    "price": 27500,
+    "originalPrice": 39000,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769879045/pizarra_didactica_con_royector_njdf4m.webp",
     "categories": [
-      "Librería",
-      "Arte"
+      "Infantil",
+      "Juguetes",
+      "Regalos"
     ],
     "featured": true,
     "stock": false,
     "details": [
-      "24 Colores exclusivos",
-      "Punta pincel y punta fina",
-      "Tinta a base de agua no tóxica"
+      "Modelos Disponibles: Jirafa, Dinosaurio y Unicornio.",
+      "Proyector de Dibujos: Solo hay que colocar un disco, encender la luz y ¡listo! Pueden calcar y pintar sus personajes favoritos.",
+      "100% Portátil: Funciona a pilas, lo que permite llevar la diversión a la mesa, al auto o donde quieran (pilas no incluidas).",
+      "Kit Completo: Incluye marcadores de colores, borrador y discos con variados dibujos para proyectar."
     ]
   },
   {
     "id": 4,
-    "name": "Botella de Agua Motivacional",
-    "description": "1 Litro con marcas de tiempo para mantenerte hidratado. Libre de BPA y con sorbete.",
-    "price": 19.99,
-    "originalPrice": 25.0,
-    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
+    "name": "Mochila 3 en 1 – Mochila + Lonchera + Cartuchera",
+    "description": "Mochila, lonchera y cartuchera. Un solo producto, todo lo que necesitan.Ideal para chicos y adolescentes",
+    "price": 29000,
+    "originalPrice": 34000,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769883667/mochila_3en1_or1mrx.webp",
     "categories": [
-      "Accesorios",
-      "Deportes"
+      "Librería",
+      "Infantil"
     ],
     "featured": false,
     "stock": true,
     "details": [
-      "Capacidad: 1 Litro",
-      "Cierre de seguridad antiderrames",
-      "Correa de transporte incluida"
+      "Mochila principal amplia y resistente",
+      "Lonchera térmica para alimentos",
+      "Cartuchera combinada"
     ]
   },
   {
     "id": 5,
-    "name": "Mini Cámara Instantánea",
-    "description": "Captura momentos especiales al instante. Incluye un pack de 10 fotos. Color Rosa Pastel.",
-    "price": 89.0,
+    "name": "Set de Marcadores Doble Punta x24",
+    "description": "Gracias a su sistema de doble punta, tenés el control total: una punta fina para detalles precisos y contornos, y una punta biselada para rellenos rápidos y trazos gruesos.",
+    "price": 8500,
     "originalPrice": null,
-    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769881432/set_marcadores_doble_punta_x24_gxw2jg.webp",
     "categories": [
-      "Tecnología",
-      "Fotografía"
-    ],
-    "featured": true,
-    "stock": false,
-    "details": [
-      "Revelado rápido en 90 segundos",
-      "Flash automático integrado",
-      "Lente macro para selfies"
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Cojín Nube Sonriente",
-    "description": "El compañero perfecto para dormir. Tela antialérgica y diseño ultra tierno.",
-    "price": 35.0,
-    "originalPrice": 45.0,
-    "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
-    "categories": [
-      "Hogar",
-      "Decoración"
+      "Librería",
+      "Infantil"
     ],
     "featured": false,
     "stock": true,
     "details": [
-      "Relleno de vellón siliconado extra suave",
-      "Hilos bordados de alta calidad",
-      "Tamaño: 40cm x 25cm"
+      "24 Marcadores de alta calidad.",
+      "Estuche de transporte: Semirrígido con cierre para mantener tus plumones organizados y protegidos a donde vayas.",
+      "Doble Versatilidad: Punta fina (1mm) y Punta biselada (6mm) en un mismo marcador.",
+      "Gama de Colores Vibrantes: 24 tonos seleccionados para lograr degradados y mezclas perfectas.",
+      "Tinta de Secado Rápido: Basada en alcohol, evita manchas y permite capas de color uniformes.",
+      "Diseño Ergonómico: Cuerpo cuadrado para un agarre cómodo que no rueda por la mesa."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Cartuchera 4 Pisos COMPLETA",
+    "description": "Esta cartuchera de 4 niveles no solo destaca por sus increíbles diseños, sino que viene totalmente equipada para que no te falte nada en clase.",
+    "price": 24500,
+    "originalPrice": 29000,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769882193/cartuchera_4pisos_completa_za9grp.webp",
+    "categories": [
+      "Librería",
+      "Infantil"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "Piso 1: Lápices de colores de cuerpo decorado.",
+      "Piso 2: Marcadores de colores vibrantes.",
+      "Piso 3: Bolígrafos de colores surtidos.",
+      "Piso 4: Set de geometría (regla), sacapuntas, goma, lápiz negro, lapicera y anotador.",
+      "Diseños Tendencia: Motivos de Minecraft, Chimuelo (Cómo entrenar a tu dragón), Avengers, Capibara y estilos 'Cute'."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Vaso Térmico Quencher 1.2L",
+    "description": "Mantenete hidratada todo el día con el Quencher de 1200 ml. Es enorme, cómodo y mantiene tus bebidas frías por horas. Ideal para el gimnasio, la oficina o tus viajes.",
+    "price": 21000,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769885958/vaso_quencher_1200ml_dyledp.webp",
+    "categories": [
+      "Hogar"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "CAPACIDAD: 1.2 Litros (¡No te quedás sin agua nunca!)",
+      "DISEÑO FUNCIONAL: Manija ergonómica para un agarre cómodo y base angosta que entra perfecto en el posavasos del auto",
+      "MÁXIMO FRÍO: Acero inoxidable de doble pared con aislamiento al vacío.",
+      "SORBETE INCLUIDO: Tapa con tres posiciones y sorbete removible.",
+      "MODELOS EXCLUSIVOS: Stock dinámico con colores pasteles, marmoleados y degrade (Consultá los colores disponibles del día)."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "BOTELLA INFANTIL TÉRMICA - 450ML",
+    "description": "¡La botella más linda y resistente para el cole o el jardín! Con diseños en relieve y materiales de alta calidad, mantiene las bebidas a la temperatura ideal mientras los chicos se divierten con sus personajes favoritos.",
+    "price": 18000,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769886553/botella_infantil_termica_450ML_ft85hu.webp",
+    "categories": [
+      "Infantil",
+      "Hogar"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "ACERO INOXIDABLE 316: Calidad premium (SUS 316) para máxima higiene y durabilidad.",
+      "DISEÑO ANTIPATADAS: Funda de silicona protectora con motivos en relieve (Ciervo, Conejo, Robot, Oso, Rana).",
+      "SORBETE INTEGRADO: Fácil de usar y con cierre hermético para evitar derrames.",
+      "CORREA REGULABLE: Incluye correa para llevarla colgada cómodamente."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Tender Vertical Reforzado - 3 Niveles",
+    "description": "Diseñado para maximizar el espacio, este tender reforzado es apto tanto para interior como para exterior",
+    "price": 24500,
+    "originalPrice": 34000,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769887300/tender_vertical_zd1qcf.webp",
+    "categories": [
+      "Hogar"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "Capacidad: Sus 3 niveles dobles cuentan con un total de 21 varillas, soportando hasta 40 kg de carga.",
+      "Diseño Inteligente: Incluye 2 mensulas laterales ideales para colgar perchas y optimizar el secado de camisas o abrigos.",
+      "Materiales de Alta Calidad: Estructura de acero con pintura antióxido y terminaciones en plástico reforzado.",
+      "Movilidad y Espacio: Con una altura de 170 cm y ruedas incorporadas, es perfecto para departamentos."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Proyector Star Master",
+    "description": "¿Querés transformar tu cuarto en un planetario? Star Master es un proyector giratorio. Ideal como luz de noche para los más chicos o para crear un ambiente relajante y mágico en cualquier habitación.",
+    "price": 11000,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769889896/proyector_star_master_n1pzpb.webp",
+    "categories": [
+      "Juguetes",
+      "Infantil"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "Efecto Giratorio: Las estrellas y la luna se mueven por todo el techo y las paredes.",
+      "Varios Modos de Luz: Elegí entre luz blanca cálida o combinaciones de colores (azul, rojo, verde).",
+      "Doble Función: Usalo con la tapa blanca como lámpara de noche suave, o quitala para proyectar el cielo estrellado.",
+      "Doble Alimentación: Funciona con pilas (para llevarlo a cualquier lado) o mediante cable USB."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Pop It Eléctrico",
+    "description": "¡Diversión y desafío en un solo juguete. Perfecto para mejorar la memoria y la coordinación motriz de los más chicos de forma súper entretenida.",
+    "price": 7500,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769890975/popit_electrico_k3cyms.webp",
+    "categories": [
+      "Juguetes",
+      "Infantil"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "Modos de Juego: Cuenta con múltiples niveles de velocidad y memoria para mantener el desafío constante.",
+      "Edad Recomendada: Ideal para niños a partir de los 3 años.",
+      "Portátil: Funciona con 3 pilas AAA (no incluidas), para jugar en casa o llevar de viaje."
     ]
   }
 ]
