@@ -1,18 +1,14 @@
 import ProductCard from './ProductCard';
-import productsData from '@/data/products.json';
+import { Product } from '@/types/product';
 
-interface Product {
-    id: number;
-    name: string;
-    description: string;
-    price: number;
-    image: string;
-    category: string;
-    featured?: boolean;
-}
-
-export default function ProductGrid() {
-    const products: Product[] = productsData;
+export default function ProductGrid({ products }: { products: Product[] }) {
+    if (products.length === 0) {
+        return (
+            <div className="flex flex-col items-center justify-center py-20 text-center">
+                <p className="text-xl font-bold text-slate-400">No se encontraron productos.</p>
+            </div>
+        );
+    }
 
     return (
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">

@@ -5,13 +5,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
 import productsData from '@/data/products.json';
-import { ShoppingCart, ArrowLeft, Heart, Share2, Check } from 'lucide-react';
+import { ShoppingCart, ArrowLeft, Share2, Check, Clock } from 'lucide-react';
 import { notFound } from 'next/navigation';
+import { Product } from '@/types/product';
+import CartDrawer from '@/components/CartDrawer';
 
 export default function ProductPage({ params }: { params: Promise<{ id: string }> }) {
     const resolvedParams = use(params);
-    const product = productsData.find((p) => p.id === parseInt(resolvedParams.id));
-    const { addToCart, setIsCartOpen } = useCart();
+    const products = productsData as Product[];
+    const product = products.find((p) => p.id === parseInt(resolvedParams.id));
+    const { addToCart, setIsCartOpen, totalItems } = useCart();
 
     if (!product) {
         notFound();
@@ -22,23 +25,62 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
         : null;
 
     return (
-        <div className="min-h-screen bg-white dark:bg-slate-950">
-            <nav className="glass sticky top-0 z-50 px-6 py-4">
+        <div className="min-h-screen bg-white pb-24 md:pb-0 dark:bg-slate-950">
+            <CartDrawer />
+
+            {/* Mobile Top Header (Only Brand) */}
+            <div className="sticky top-0 z-40 flex items-center justify-center gap-2 border-b bg-white px-6 py-3 md:hidden dark:bg-slate-900 dark:border-slate-800">
+                <Image
+                    src="/logo.jpg"
+                    alt="Logo"
+                    width={28}
+                    height={28}
+                    className="rounded-full border border-primary"
+                />
+                <span className="text-lg font-black tracking-tighter text-primary">CHULI</span>
+            </div>
+            {/* Navigation - Top (Desktop) / Bottom (Mobile) */}
+            <nav className="fixed right-0 bottom-0 left-0 z-[100] border-t bg-white px-6 py-3 shadow-[0_-8px_30px_rgba(0,0,0,0.08)] md:sticky md:top-0 md:bottom-auto md:border-t-0 md:border-b md:py-4 dark:bg-slate-900 dark:border-slate-800">
                 <div className="mx-auto flex max-w-7xl items-center justify-between">
-                    <Link href="/" className="flex items-center gap-2 text-slate-600 transition-colors hover:text-primary dark:text-slate-400">
-                        <ArrowLeft className="h-5 w-5" />
-                        <span className="font-bold">Volver</span>
+                    {/* Back Button - Always visible but styled differently on desktop */}
+                    <Link href="/" className="flex flex-col items-center gap-1 text-slate-500 transition-colors hover:text-primary md:flex-row md:gap-2">
+                        <ArrowLeft className="h-6 w-6 md:h-5 md:w-5" />
+                        <span className="text-[10px] font-bold uppercase tracking-tight md:text-sm md:normal-case md:tracking-normal">Volver</span>
                     </Link>
-                    <div className="flex items-center gap-2">
+
+                    {/* Logo - Hidden on mobile bottom nav, visible on desktop */}
+                    <div className="hidden items-center gap-2 md:flex">
                         <Image src="/logo.jpg" alt="Logo" width={32} height={32} className="rounded-full" />
                         <span className="text-lg font-black tracking-tighter text-primary">CHULI</span>
                     </div>
-                    <button
-                        onClick={() => setIsCartOpen(true)}
-                        className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 transition-colors hover:bg-primary hover:text-white dark:bg-slate-800"
-                    >
-                        <ShoppingCart className="h-5 w-5" />
-                    </button>
+
+                    {/* Mobile Items */}
+                    <div className="flex items-center gap-8 md:gap-4">
+                        {/* <Link href="/" className="flex flex-col items-center gap-1 text-slate-500 transition-colors hover:text-primary md:hidden">
+                            <HomeIcon className="h-6 w-6" />
+                            <span className="text-[10px] font-bold uppercase tracking-tight">Inicio</span>
+                        </Link> */}
+
+                        <button
+                            onClick={() => setIsCartOpen(true)}
+                            className="group relative flex flex-col items-center gap-1 md:flex-row md:gap-2 md:rounded-full md:bg-slate-100 md:p-2.5 md:transition-colors md:hover:bg-primary md:hover:text-white dark:md:bg-slate-800"
+                        >
+                            <div className="relative">
+                                <ShoppingCart className="h-6 w-6 md:h-5 md:w-5" />
+                                {totalItems > 0 && (
+                                    <span className="absolute -top-2 -right-2 flex h-4 w-4 items-center justify-center rounded-full bg-accent text-[8px] text-white ring-2 ring-white md:hidden">
+                                        {totalItems}
+                                    </span>
+                                )}
+                            </div>
+                            <span className="text-[10px] font-bold uppercase tracking-tight md:hidden">Carrito</span>
+                            {totalItems > 0 && (
+                                <span className="absolute -top-2 -right-2 hidden h-6 w-6 items-center justify-center rounded-full bg-accent text-[10px] text-white ring-4 ring-white md:flex dark:ring-slate-950">
+                                    {totalItems}
+                                </span>
+                            )}
+                        </button>
+                    </div>
                 </div>
             </nav>
 
@@ -64,10 +106,15 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
 
                     {/* Product Info */}
                     <div className="flex flex-col">
-                        <div className="flex items-center gap-2 text-sm font-black tracking-widest text-secondary uppercase">
-                            <span>{product.category}</span>
-                            <span className="h-1 w-1 rounded-full bg-slate-300" />
-                            <span className="text-slate-400">SKU: CH-00{product.id}</span>
+                        <div className="flex flex-wrap items-center gap-2 text-sm font-black tracking-widest text-secondary uppercase">
+                            {product.categories.map((cat, idx) => (
+                                <span key={cat}>
+                                    {cat}
+                                    {idx < product.categories.length - 1 && (
+                                        <span className="font-slate-300" > -</span>
+                                    )}
+                                </span>
+                            ))}
                         </div>
 
                         <h1 className="mt-4 text-4xl font-black text-slate-900 md:text-5xl dark:text-white">
@@ -88,17 +135,24 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
                         </p>
 
                         <div className="mt-10 space-y-4 rounded-3xl bg-slate-50 p-6 dark:bg-slate-900">
-                            <div className="flex items-center gap-3 text-sm font-bold text-slate-700 dark:text-slate-300">
-                                <Check className="h-5 w-5 text-green-500" />
-                                <span>Stock disponible y listo para enviar</span>
-                            </div>
-                            <div className="flex items-center gap-3 text-sm font-bold text-slate-700 dark:text-slate-300">
+                            {product.stock ? (
+                                <div className="flex items-center gap-3 text-sm font-bold text-slate-700 dark:text-slate-300">
+                                    <Check className="h-5 w-5 text-green-500" />
+                                    <span>Stock disponible</span>
+                                </div>
+                            ) : (
+                                <div className="flex items-center gap-3 text-sm font-bold text-amber-600">
+                                    <Clock className="h-5 w-5" />
+                                    <span>Sin Stock (Lo podemos pedir)</span>
+                                </div>
+                            )}
+                            {/* <div className="flex items-center gap-3 text-sm font-bold text-slate-700 dark:text-slate-300">
                                 <Check className="h-5 w-5 text-green-500" />
                                 <span>Retiro gratis en nuestro pick-up point</span>
-                            </div>
+                            </div> */}
                         </div>
 
-                        <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+                        <div className="mt-10 flex flex-row gap-4">
                             <button
                                 onClick={() => addToCart(product)}
                                 className="flex flex-1 items-center justify-center gap-3 rounded-2xl bg-primary py-5 text-lg font-black text-white shadow-2xl shadow-purple-500/30 transition-all hover:bg-primary-hover hover:scale-[1.02] active:scale-95"
@@ -106,9 +160,9 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
                                 <ShoppingCart className="h-6 w-6" />
                                 Agregar al carrito
                             </button>
-                            <button className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-2xl border border-slate-200 transition-colors hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-800">
+                            {/* <button className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-2xl border border-slate-200 transition-colors hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-800">
                                 <Heart className="h-6 w-6" />
-                            </button>
+                            </button> */}
                             <button className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-2xl border border-slate-200 transition-colors hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-800">
                                 <Share2 className="h-6 w-6" />
                             </button>
@@ -117,9 +171,9 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
                         <div className="mt-12 border-t border-slate-100 pt-8 dark:border-slate-800">
                             <h3 className="font-black">Detalles del producto</h3>
                             <ul className="mt-4 space-y-2 text-sm text-slate-500">
-                                <li>• Material: Tela hipoalergénica premium</li>
-                                <li>• Tamaño: 20cm x 15cm aprox.</li>
-                                <li>• Lavable a máquina (programa suave)</li>
+                                {product.details.map((detail, idx) => (
+                                    <li key={idx}>• {detail}</li>
+                                ))}
                             </ul>
                         </div>
                     </div>

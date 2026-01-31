@@ -3,17 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
-
-interface Product {
-    id: number;
-    name: string;
-    description: string;
-    price: number;
-    originalPrice?: number | null;
-    image: string;
-    category: string;
-    featured?: boolean;
-}
+import { Product } from '@/types/product';
 
 export default function ProductCard({ product }: { product: Product }) {
     const { addToCart } = useCart();
@@ -45,7 +35,7 @@ export default function ProductCard({ product }: { product: Product }) {
 
             <div className="mt-5 flex flex-1 flex-col gap-2">
                 <span className="text-[10px] font-black tracking-[0.2em] text-secondary uppercase">
-                    {product.category}
+                    {product.categories[0]}
                 </span>
                 <Link
                     href={`/product/${product.id}`}

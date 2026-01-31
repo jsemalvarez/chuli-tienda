@@ -1,62 +1,116 @@
 [
   {
     "id": 1,
-    "name": "Peluche Pulpo Reversible 333333",
+    "name": "Pizarra c/Proyector",
     "description": "El famoso pulpo que expresa tus emociones. Súper suave y de colores vibrantes.",
-    "price": 12.99,
-    "originalPrice": 18.00,
+    "price": 27.500,
+    "originalPrice": 39.000,
     "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
-    "category": "Juguetes",
-    "featured": true
+    "categories": [
+      "Juguetes",
+      "Regalos"
+    ],
+    "featured": true,
+    "stock": true,
+    "details": [
+      "Material: Tela hipoalergénica premium",
+      "Tamaño: 20cm x 15cm aprox.",
+      "Lavable a máquina (programa suave)"
+    ]
   },
   {
     "id": 2,
     "name": "Lámpara de Noche Unicornio",
     "description": "Ilumina los sueños con esta lámpara LED táctil que cambia de color. Batería recargable.",
-    "price": 24.50,
+    "price": 24.5,
     "originalPrice": null,
     "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
-    "category": "Decoración",
-    "featured": false
+    "categories": [
+      "Decoración",
+      "Iluminación"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "Luz LED de bajo consumo",
+      "Carga por USB (cable incluido)",
+      "Material: Silicona suave libre de BPA"
+    ]
   },
   {
     "id": 3,
     "name": "Set de Marcadores Pastel",
     "description": "24 tonos pastel para tus dibujos más creativos. Punta doble para trazos finos y gruesos.",
-    "price": 15.00,
-    "originalPrice": 22.00,
+    "price": 15.0,
+    "originalPrice": 22.0,
     "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
-    "category": "Librería",
-    "featured": true
+    "categories": [
+      "Librería",
+      "Arte"
+    ],
+    "featured": true,
+    "stock": false,
+    "details": [
+      "24 Colores exclusivos",
+      "Punta pincel y punta fina",
+      "Tinta a base de agua no tóxica"
+    ]
   },
   {
     "id": 4,
     "name": "Botella de Agua Motivacional",
     "description": "1 Litro con marcas de tiempo para mantenerte hidratado. Libre de BPA y con sorbete.",
     "price": 19.99,
-    "originalPrice": 25.00,
+    "originalPrice": 25.0,
     "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
-    "category": "Accesorios",
-    "featured": false
+    "categories": [
+      "Accesorios",
+      "Deportes"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "Capacidad: 1 Litro",
+      "Cierre de seguridad antiderrames",
+      "Correa de transporte incluida"
+    ]
   },
   {
     "id": 5,
     "name": "Mini Cámara Instantánea",
     "description": "Captura momentos especiales al instante. Incluye un pack de 10 fotos. Color Rosa Pastel.",
-    "price": 89.00,
+    "price": 89.0,
     "originalPrice": null,
     "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
-    "category": "Tecnología",
-    "featured": true
+    "categories": [
+      "Tecnología",
+      "Fotografía"
+    ],
+    "featured": true,
+    "stock": false,
+    "details": [
+      "Revelado rápido en 90 segundos",
+      "Flash automático integrado",
+      "Lente macro para selfies"
+    ]
   },
   {
     "id": 6,
     "name": "Cojín Nube Sonriente",
     "description": "El compañero perfecto para dormir. Tela antialérgica y diseño ultra tierno.",
-    "price": 35.00,
-    "originalPrice": 45.00,
+    "price": 35.0,
+    "originalPrice": 45.0,
     "image": "https://res.cloudinary.com/dwhdla1b4/image/upload/v1749601876/pcp-images/pcp_famila_mnh0rq.webp",
-    "category": "Hogar",
-    "featured": false
+    "categories": [
+      "Hogar",
+      "Decoración"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "Relleno de vellón siliconado extra suave",
+      "Hilos bordados de alta calidad",
+      "Tamaño: 40cm x 25cm"
+    ]
   }
 ]

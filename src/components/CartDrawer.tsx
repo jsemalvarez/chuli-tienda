@@ -5,12 +5,32 @@ import Image from 'next/image';
 import { X, Minus, Plus, Trash2, ShoppingBag } from 'lucide-react';
 
 export default function CartDrawer() {
-    const { cart, isCartOpen, setIsCartOpen, removeFromCart, updateQuantity, totalPrice, totalItems } = useCart();
+    const { cart, isCartOpen, setIsCartOpen, removeFromCart, updateQuantity, totalPrice, totalItems, clearCart } = useCart();
+
+    const sendWhatsAppMessage = () => {
+        const phoneNumber = "+5492234218873"; // Replace with actual number
+        const businessName = "Chuli Tienda";
+
+        let message = `¡Hola ${businessName}! Quería realizar el siguiente pedido:\n\n`;
+
+        cart.forEach((item) => {
+            message += `• ${item.name} (x${item.quantity}) - $${(item.price * item.quantity).toFixed(2)}\n`;
+        });
+
+        message += `\n*Total: $${totalPrice.toFixed(2)}*\n\n`;
+        message += `¿Me confirman si tienen stock de estos productos? ¡Muchas gracias!`;
+
+        const encodedMessage = encodeURIComponent(message);
+        window.open(`https://wa.me/${phoneNumber.replace(/[^0-9]/g, '')}?text=${encodedMessage}`, '_blank');
+
+        clearCart();
+        setIsCartOpen(false)
+    };
 
     if (!isCartOpen) return null;
 
     return (
-        <div className="fixed inset-0 z-[100] overflow-hidden">
+        <div className="fixed inset-0 z-[150] overflow-hidden">
             <div
                 className="absolute inset-0 bg-slate-900/40 backdrop-blur-sm transition-opacity"
                 onClick={() => setIsCartOpen(false)}
@@ -100,12 +120,15 @@ export default function CartDrawer() {
                         {cart.length > 0 && (
                             <div className="border-t px-6 py-8 dark:border-slate-800">
                                 <div className="flex justify-between text-base font-bold text-slate-900 dark:text-white">
-                                    <span>Subtotal</span>
+                                    <span>Total</span>
                                     <span className="text-2xl font-black text-primary">${totalPrice.toFixed(2)}</span>
                                 </div>
-                                <p className="mt-1 text-sm text-slate-500">Envío e impuestos calculados al terminar.</p>
-                                <button className="mt-8 w-full rounded-2xl bg-slate-900 py-4 font-bold text-white transition-all hover:bg-primary dark:bg-white dark:text-slate-900 dark:hover:bg-primary dark:hover:text-white">
-                                    Finalizar Pedido
+                                <p className="mt-1 text-sm text-slate-500">El pedido se comunica por whatsapp y luego nos contactamos.</p>
+                                <button
+                                    onClick={sendWhatsAppMessage}
+                                    className="mt-8 w-full rounded-2xl bg-slate-900 py-4 font-bold text-white transition-all hover:bg-primary dark:bg-white dark:text-slate-900 dark:hover:bg-primary dark:hover:text-white"
+                                >
+                                    Comunicar pedido
                                 </button>
                             </div>
                         )}
