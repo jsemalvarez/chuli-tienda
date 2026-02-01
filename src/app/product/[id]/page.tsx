@@ -24,6 +24,31 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
         ? Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)
         : null;
 
+    const handleShare = async () => {
+        if (!product) return;
+
+        const shareData = {
+            title: product.name,
+            text: `¡Mirá lo que encontré en CHULI! ${product.name}`,
+            url: window.location.href,
+        };
+
+        if (typeof navigator !== 'undefined' && navigator.share) {
+            try {
+                await navigator.share(shareData);
+            } catch (err) {
+                if ((err as Error).name !== 'AbortError') {
+                    console.error('Error sharing:', err);
+                }
+            }
+        } else {
+            // Fallback for desktop or browsers that don't support Web Share API
+            const shareText = `${shareData.text} ${shareData.url}`;
+            const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    };
+
     return (
         <div className="min-h-screen bg-white pb-24 md:pb-0 dark:bg-slate-950">
             <CartDrawer />
@@ -163,7 +188,11 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
                             {/* <button className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-2xl border border-slate-200 transition-colors hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-800">
                                 <Heart className="h-6 w-6" />
                             </button> */}
-                            <button className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-2xl border border-slate-200 transition-colors hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-800">
+                            <button
+                                onClick={handleShare}
+                                className="flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-2xl border border-slate-200 transition-all hover:bg-slate-50 dark:border-slate-800 dark:hover:bg-slate-800 active:scale-90"
+                                title="Compartir producto"
+                            >
                                 <Share2 className="h-6 w-6" />
                             </button>
                         </div>
