@@ -168,7 +168,7 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
                             ) : (
                                 <div className="flex items-center gap-3 text-sm font-bold text-amber-600">
                                     <Clock className="h-5 w-5" />
-                                    <span>Sin Stock (Lo podemos pedir)</span>
+                                    <span>Pedido por encargue</span>
                                 </div>
                             )}
                             {/* <div className="flex items-center gap-3 text-sm font-bold text-slate-700 dark:text-slate-300">
