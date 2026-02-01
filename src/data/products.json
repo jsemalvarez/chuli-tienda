@@ -1,5 +1,85 @@
 [
   {
+    "id": 3,
+    "name": "Pizarra Didáctica con Proyector",
+    "description": "¡Despertá la creatividad de los más chicos con la pizarra mágica. Gracias a su tamaño pequeño, es ergonómica e ideal para niños a partir de los 3 años.",
+    "price": 27500,
+    "originalPrice": 39000,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769879045/pizarra_didactica_con_royector_njdf4m.webp",
+    "categories": [
+      "Infantil",
+      "Juguetes",
+      "Regalos"
+    ],
+    "featured": true,
+    "stock": false,
+    "details": [
+      "Modelos Disponibles: Jirafa, Dinosaurio y Unicornio.",
+      "Proyector de Dibujos: Solo hay que colocar un disco, encender la luz y ¡listo! Pueden calcar y pintar sus personajes favoritos.",
+      "100% Portátil: Funciona a pilas, lo que permite llevar la diversión a la mesa, al auto o donde quieran (pilas no incluidas).",
+      "Kit Completo: Incluye marcadores de colores, borrador y discos con variados dibujos para proyectar."
+    ]
+  },
+    {
+    "id": 4,
+    "name": "Mochila 3 en 1 – Mochila + Lonchera + Cartuchera",
+    "description": "Mochila, lonchera y cartuchera. Un solo producto, todo lo que necesitan.Ideal para chicos y adolescentes",
+    "price": 29000,
+    "originalPrice": 34000,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769883667/mochila_3en1_or1mrx.webp",
+    "categories": [
+      "Librería",
+      "Infantil"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "Mochila principal amplia y resistente",
+      "Lonchera térmica para alimentos",
+      "Cartuchera combinada"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Cartuchera 4 Pisos COMPLETA",
+    "description": "Esta cartuchera de 4 niveles no solo destaca por sus increíbles diseños, sino que viene totalmente equipada para que no te falte nada en clase.",
+    "price": 24500,
+    "originalPrice": 29000,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769882193/cartuchera_4pisos_completa_za9grp.webp",
+    "categories": [
+      "Librería",
+      "Infantil"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "Piso 1: Lápices de colores de cuerpo decorado.",
+      "Piso 2: Marcadores de colores vibrantes.",
+      "Piso 3: Bolígrafos de colores surtidos.",
+      "Piso 4: Set de geometría (regla), sacapuntas, goma, lápiz negro, lapicera y anotador.",
+      "Diseños Tendencia: Motivos de Minecraft, Chimuelo (Cómo entrenar a tu dragón), Avengers, Capibara y estilos 'Cute'."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Tender Vertical Reforzado - 3 Niveles",
+    "description": "Diseñado para maximizar el espacio, este tender reforzado es apto tanto para interior como para exterior",
+    "price": 24500,
+    "originalPrice": 34000,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769887300/tender_vertical_zd1qcf.webp",
+    "categories": [
+      "Hogar"
+    ],
+    "featured": false,
+    "stock": true,
+    "details": [
+      "Capacidad: Sus 3 niveles dobles cuentan con un total de 21 varillas, soportando hasta 40 kg de carga.",
+      "Diseño Inteligente: Incluye 2 mensulas laterales ideales para colgar perchas y optimizar el secado de camisas o abrigos.",
+      "Materiales de Alta Calidad: Estructura de acero con pintura antióxido y terminaciones en plástico reforzado.",
+      "Movilidad y Espacio: Con una altura de 170 cm y ruedas incorporadas, es perfecto para departamentos."
+    ]
+  },
+  {
     "id": 1,
     "name": "Pizarra Mágica LED 20x30",
     "description": "Este panel de acrílico transparente te permite escribir, dibujar y crear mensajes que brillan gracias a su base con iluminación LED. Es perfecta como lámpara de noche decorativa o para que los más chicos se diviertan dibujando sin parar.",
@@ -40,46 +120,6 @@
     ]
   },
   {
-    "id": 3,
-    "name": "Pizarra Didáctica con Proyector",
-    "description": "¡Despertá la creatividad de los más chicos con la pizarra mágica. Gracias a su tamaño pequeño, es ergonómica e ideal para niños a partir de los 3 años.",
-    "price": 27500,
-    "originalPrice": 39000,
-    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769879045/pizarra_didactica_con_royector_njdf4m.webp",
-    "categories": [
-      "Infantil",
-      "Juguetes",
-      "Regalos"
-    ],
-    "featured": true,
-    "stock": false,
-    "details": [
-      "Modelos Disponibles: Jirafa, Dinosaurio y Unicornio.",
-      "Proyector de Dibujos: Solo hay que colocar un disco, encender la luz y ¡listo! Pueden calcar y pintar sus personajes favoritos.",
-      "100% Portátil: Funciona a pilas, lo que permite llevar la diversión a la mesa, al auto o donde quieran (pilas no incluidas).",
-      "Kit Completo: Incluye marcadores de colores, borrador y discos con variados dibujos para proyectar."
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Mochila 3 en 1 – Mochila + Lonchera + Cartuchera",
-    "description": "Mochila, lonchera y cartuchera. Un solo producto, todo lo que necesitan.Ideal para chicos y adolescentes",
-    "price": 29000,
-    "originalPrice": 34000,
-    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769883667/mochila_3en1_or1mrx.webp",
-    "categories": [
-      "Librería",
-      "Infantil"
-    ],
-    "featured": false,
-    "stock": true,
-    "details": [
-      "Mochila principal amplia y resistente",
-      "Lonchera térmica para alimentos",
-      "Cartuchera combinada"
-    ]
-  },
-  {
     "id": 5,
     "name": "Set de Marcadores Doble Punta x24",
     "description": "Gracias a su sistema de doble punta, tenés el control total: una punta fina para detalles precisos y contornos, y una punta biselada para rellenos rápidos y trazos gruesos.",
@@ -99,27 +139,6 @@
       "Gama de Colores Vibrantes: 24 tonos seleccionados para lograr degradados y mezclas perfectas.",
       "Tinta de Secado Rápido: Basada en alcohol, evita manchas y permite capas de color uniformes.",
       "Diseño Ergonómico: Cuerpo cuadrado para un agarre cómodo que no rueda por la mesa."
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Cartuchera 4 Pisos COMPLETA",
-    "description": "Esta cartuchera de 4 niveles no solo destaca por sus increíbles diseños, sino que viene totalmente equipada para que no te falte nada en clase.",
-    "price": 24500,
-    "originalPrice": 29000,
-    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769882193/cartuchera_4pisos_completa_za9grp.webp",
-    "categories": [
-      "Librería",
-      "Infantil"
-    ],
-    "featured": false,
-    "stock": true,
-    "details": [
-      "Piso 1: Lápices de colores de cuerpo decorado.",
-      "Piso 2: Marcadores de colores vibrantes.",
-      "Piso 3: Bolígrafos de colores surtidos.",
-      "Piso 4: Set de geometría (regla), sacapuntas, goma, lápiz negro, lapicera y anotador.",
-      "Diseños Tendencia: Motivos de Minecraft, Chimuelo (Cómo entrenar a tu dragón), Avengers, Capibara y estilos 'Cute'."
     ]
   },
   {
@@ -163,25 +182,6 @@
     ]
   },
   {
-    "id": 9,
-    "name": "Tender Vertical Reforzado - 3 Niveles",
-    "description": "Diseñado para maximizar el espacio, este tender reforzado es apto tanto para interior como para exterior",
-    "price": 24500,
-    "originalPrice": 34000,
-    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769887300/tender_vertical_zd1qcf.webp",
-    "categories": [
-      "Hogar"
-    ],
-    "featured": false,
-    "stock": true,
-    "details": [
-      "Capacidad: Sus 3 niveles dobles cuentan con un total de 21 varillas, soportando hasta 40 kg de carga.",
-      "Diseño Inteligente: Incluye 2 mensulas laterales ideales para colgar perchas y optimizar el secado de camisas o abrigos.",
-      "Materiales de Alta Calidad: Estructura de acero con pintura antióxido y terminaciones en plástico reforzado.",
-      "Movilidad y Espacio: Con una altura de 170 cm y ruedas incorporadas, es perfecto para departamentos."
-    ]
-  },
-  {
     "id": 10,
     "name": "Proyector Star Master",
     "description": "¿Querés transformar tu cuarto en un planetario? Star Master es un proyector giratorio. Ideal como luz de noche para los más chicos o para crear un ambiente relajante y mágico en cualquier habitación.",
@@ -218,6 +218,71 @@
       "Modos de Juego: Cuenta con múltiples niveles de velocidad y memoria para mantener el desafío constante.",
       "Edad Recomendada: Ideal para niños a partir de los 3 años.",
       "Portátil: Funciona con 3 pilas AAA (no incluidas), para jugar en casa o llevar de viaje."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Set de Utensilios Premium – 12 Piezas con Soporte",
+    "description": "Este set es el aliado perfecto para cuidar tus ollas y sartenes. Fabricados en silicona de grado alimenticio resistente al calor y mangos de madera ergonómicos, ofrecen durabilidad y un diseño moderno que queda increíble en cualquier mesada.",
+    "price": 21500,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769970737/set_utensilios_12piezas_mfj6ak.webp",
+    "categories": [
+      "Hogar"
+    ],
+    "featured": false,
+    "stock": false,
+    "details": [
+      "Completo: Incluye espátulas, cucharas, batidor, pincel, pinzas y más (12 piezas en total).",
+      "Antiadherente: La silicona suave no raya el teflón ni la cerámica.",
+      "Resistente: Soporta altas temperaturas sin deformarse.",
+      "Organizado: Incluye el soporte (balde) a tono para tener todo siempre a mano."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Set de Cuchillos de Cocina Coloridos",
+    "description": "Este juego de 6 piezas no solo destaca por su estética vibrante, sino por su altísima funcionalidad. Cada cuchillo cuenta con un revestimiento antiadherente que facilita el corte y evita que los alimentos se peguen.",
+    "price": 14000,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769971617/set_cuchillos_coloridos_x6_edqhi2.webp",
+    "categories": [
+      "Hogar"
+    ],
+    "featured": false,
+    "stock": false,
+    "details": [
+      "Cuchillo de Chef: El todoterreno para picar y rebanar.",
+      "Cuchillo para Pan: Sierra perfecta para cortes limpios.",
+      "Cuchillo para Tallar: Ideal para carnes y cortes precisos.",
+      "Cuchillo Multiuso: Para frutas, verduras y tareas diarias.",
+      "Cuchillo de Oficio: Pequeño y manejable para detalles.",
+      "Pelador Cerámico: El aliado perfecto para vegetales.",
+      "Hojas de Acero Inoxidable: Durabilidad y filo prolongado.",
+      "Recubrimiento Antiadherente: Higiénico y súper fácil de lavar.",
+      "Mangos Ergonómicos 'Soft Touch': Agarre cómodo y antideslizante para mayor seguridad.",
+      "Diseño Colorido: Identificá cada cuchillo por su color y evitá la contaminación cruzada."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Pizarra Lcd Infantil De Dibujo 12 Pulgadas",
+    "description": "Tableta Gráfica Infantil diseñada para pequeños artistas. Ofrece una experiencia de dibujo única con trazos multicolor, permitiendo a los niños explorar un mundo lleno de colores vibrantes. La sensibilidad a la presión permite un control preciso del grosor de las líneas, brindando una experiencia de dibujo realista y natural.",
+    "price": 7000,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769973412/pizarra_infantil_12pulgadas_dh7kwh.webp",
+    "categories": [
+      "Infantil",
+      "Juguetes"
+    ],
+    "featured": false,
+    "stock": false,
+    "details": [
+      "Pantalla LCD con superficie de dibujo clara y nítida.",
+      "Tamaño: 28,5X19X0,5cm",
+      "Área de escritura: 23X16,5cm.",
+      "Peso neto: 163g",
+      "Ideal para todas las edades."
     ]
   }
 ]
