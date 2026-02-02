@@ -20,23 +20,42 @@
       "Kit Completo: Incluye marcadores de colores, borrador y discos con variados dibujos para proyectar."
     ]
   },
-    {
-    "id": 4,
-    "name": "Mochila 3 en 1 – Mochila + Lonchera + Cartuchera",
-    "description": "Mochila, lonchera y cartuchera. Un solo producto, todo lo que necesitan.Ideal para chicos y adolescentes",
-    "price": 29000,
+  {
+    "id": 9,
+    "name": "Tender Vertical Reforzado - 3 Niveles",
+    "description": "Diseñado para maximizar el espacio, este tender reforzado es apto tanto para interior como para exterior",
+    "price": 24500,
     "originalPrice": 34000,
-    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769883667/mochila_3en1_or1mrx.webp",
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769887300/tender_vertical_zd1qcf.webp",
     "categories": [
-      "Librería",
-      "Infantil"
+      "Hogar"
     ],
     "featured": false,
     "stock": true,
     "details": [
-      "Mochila principal amplia y resistente",
-      "Lonchera térmica para alimentos",
-      "Cartuchera combinada"
+      "Capacidad: Sus 3 niveles dobles cuentan con un total de 21 varillas, soportando hasta 40 kg de carga.",
+      "Diseño Inteligente: Incluye 2 mensulas laterales ideales para colgar perchas y optimizar el secado de camisas o abrigos.",
+      "Materiales de Alta Calidad: Estructura de acero con pintura antióxido y terminaciones en plástico reforzado.",
+      "Movilidad y Espacio: Con una altura de 170 cm y ruedas incorporadas, es perfecto para departamentos."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Balde Bloques Encastrable 120 Piezas",
+    "description": "¡Diversión y creatividad ilimitadas esperan a los peques constructores! Este juguete viene con un set de 120 piezas que permitirá dar rienda suelta a su imaginación mientras desarrollan habilidades motoras y habilidades cognitivas.",
+    "price": 12500,
+    "originalPrice": 16000,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1770063777/balde_bloques_120piezas_dgubsf.webp",
+    "categories": [
+      "Juguetes",
+      "Infantil"
+    ],
+    "featured": false,
+    "stock": false,
+    "details": [
+      "Set de 120 piezas para construir.",
+      "Adecuado para niños y niñas a partir de 3 años.",
+      "Presentado en un práctico balde para facilitar el transporte y el almacenamiento."
     ]
   },
   {
@@ -61,22 +80,22 @@
     ]
   },
   {
-    "id": 9,
-    "name": "Tender Vertical Reforzado - 3 Niveles",
-    "description": "Diseñado para maximizar el espacio, este tender reforzado es apto tanto para interior como para exterior",
-    "price": 24500,
+    "id": 4,
+    "name": "Mochila 3 en 1 – Mochila + Lonchera + Cartuchera",
+    "description": "Mochila, lonchera y cartuchera. Un solo producto, todo lo que necesitan.Ideal para chicos y adolescentes",
+    "price": 29000,
     "originalPrice": 34000,
-    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769887300/tender_vertical_zd1qcf.webp",
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769883667/mochila_3en1_or1mrx.webp",
     "categories": [
-      "Hogar"
+      "Librería",
+      "Infantil"
     ],
     "featured": false,
     "stock": true,
     "details": [
-      "Capacidad: Sus 3 niveles dobles cuentan con un total de 21 varillas, soportando hasta 40 kg de carga.",
-      "Diseño Inteligente: Incluye 2 mensulas laterales ideales para colgar perchas y optimizar el secado de camisas o abrigos.",
-      "Materiales de Alta Calidad: Estructura de acero con pintura antióxido y terminaciones en plástico reforzado.",
-      "Movilidad y Espacio: Con una altura de 170 cm y ruedas incorporadas, es perfecto para departamentos."
+      "Mochila principal amplia y resistente",
+      "Lonchera térmica para alimentos",
+      "Cartuchera combinada"
     ]
   },
   {
@@ -283,6 +302,62 @@
       "Área de escritura: 23X16,5cm.",
       "Peso neto: 163g",
       "Ideal para todas las edades."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Mochila Con Cartuchera – UNICORNIO",
+    "description": "Ideal para los primeros años del colegio con la cartuchera haciendo tono. Bolsillo frontal y doble cierre en la parte superior.",
+    "price": 20000,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1770065503/mochila_cartuchera_UNICORNIO_iqndfy.webp",
+    "categories": [
+      "Librería",
+      "Infantil"
+    ],
+    "featured": false,
+    "stock": false,
+    "details": [
+      "1 Mochila",
+      "1 Cartuchera tubo",
+      "Medidas: 36cm X 29cm X 16cm"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Mochila Con Cartuchera – ASTRONAUTA",
+    "description": "Ideal para los primeros años del colegio con la cartuchera haciendo tono. Bolsillo frontal y doble cierre en la parte superior.",
+    "price": 20000,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1770066787/mochila_cartuchera_ASTRONAUTA_uxa8pm.webp",
+    "categories": [
+      "Librería",
+      "Infantil"
+    ],
+    "featured": false,
+    "stock": false,
+    "details": [
+      "1 Mochila",
+      "1 Cartuchera tubo",
+      "Medidas: 36cm X 29cm X 16cm"
+    ]
+  },
+  {
+    "id": 18,
+    "name": " Marcadores Infantiles Mini x18",
+    "description": "Set de 18 marcadores de colores con presentación en envase portátil con diseño infantil. Su práctico envase con asa facilita el transporte y el guardado, perfecto para uso escolar y actividades creativas.",
+    "price": 6500,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1770067298/marcadores_infantiles_x18_sunx7m.webp",
+    "categories": [
+      "Librería",
+      "Infantil"
+    ],
+    "featured": false,
+    "stock": false,
+    "details": [
+      "18 Marcadores mini de colores",
+      "1 Envase plástico diseño infantil"
     ]
   }
 ]
