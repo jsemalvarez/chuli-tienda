@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
+import Link from 'next/link';
 import ProductGrid from '@/components/ProductGrid';
 import CartDrawer from '@/components/CartDrawer';
 import Image from 'next/image';
@@ -35,24 +36,26 @@ export default function Home() {
       <CartDrawer />
 
       {/* Mobile Top Header (Only Brand) */}
-      <div className="sticky top-0 z-40 flex items-center justify-center gap-2 border-b bg-white px-6 py-3 md:hidden dark:bg-slate-900 dark:border-slate-800">
-        <Image
-          src="/logo.jpg"
-          alt="Chuli Tienda Logo"
-          width={32}
-          height={32}
-          className="rounded-full border border-primary"
-        />
-        <div className="text-xl font-black tracking-tighter text-primary">
-          CHULI<span className="text-slate-800 dark:text-accent">TIENDA</span>
-        </div>
+      <div className="sticky top-0 z-40 flex items-center justify-center border-b bg-white px-6 py-3 md:hidden dark:bg-slate-900 dark:border-slate-800">
+        <Link href="/" className="flex items-center justify-center gap-2">
+          <Image
+            src="/logo.jpg"
+            alt="Chuli Tienda Logo"
+            width={32}
+            height={32}
+            className="rounded-full border border-primary"
+          />
+          <div className="text-xl font-black tracking-tighter text-primary">
+            CHULI<span className="text-slate-800 dark:text-accent">TIENDA</span>
+          </div>
+        </Link>
       </div>
 
       {/* Navigation - Top (Desktop) / Bottom (Mobile) */}
       <nav className="fixed right-0 bottom-0 left-0 z-[100] border-t bg-white px-6 py-3 shadow-[0_-8px_30px_rgba(0,0,0,0.08)] md:sticky md:top-0 md:bottom-auto md:border-t-0 md:border-b md:py-4 dark:bg-slate-900 dark:border-slate-800">
         <div className="mx-auto flex max-w-7xl items-center justify-between">
           {/* Logo - Hidden on mobile bottom nav, visible on desktop */}
-          <div className="hidden items-center gap-2 md:flex">
+          <Link href="/" className="hidden items-center gap-2 md:flex hover:opacity-80 transition-opacity">
             <Image
               src="/logo.jpg"
               alt="Chuli Tienda Logo"
@@ -63,7 +66,7 @@ export default function Home() {
             <div className="text-2xl font-black tracking-tighter text-primary">
               CHULI<span className="text-slate-800 dark:text-accent">TIENDA</span>
             </div>
-          </div>
+          </Link>
 
           {/* Mobile Bottom Nav Items */}
           <div className="flex w-full items-center justify-around md:w-auto md:justify-end md:gap-4">

@@ -54,15 +54,19 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
             <CartDrawer />
 
             {/* Mobile Top Header (Only Brand) */}
-            <div className="sticky top-0 z-40 flex items-center justify-center gap-2 border-b bg-white px-6 py-3 md:hidden dark:bg-slate-900 dark:border-slate-800">
-                <Image
-                    src="/logo.jpg"
-                    alt="Logo"
-                    width={28}
-                    height={28}
-                    className="rounded-full border border-primary"
-                />
-                <span className="text-lg font-black tracking-tighter text-primary">CHULI</span>
+            <div className="sticky top-0 z-40 flex items-center justify-center border-b bg-white px-6 py-3 md:hidden dark:bg-slate-900 dark:border-slate-800">
+                <Link href="/" className="flex items-center justify-center gap-2">
+                    <Image
+                        src="/logo.jpg"
+                        alt="Logo"
+                        width={28}
+                        height={28}
+                        className="rounded-full border border-primary"
+                    />
+                    <span className="text-lg font-black tracking-tighter text-primary">
+                        CHULI<span className="text-slate-800 dark:text-accent">TIENDA</span>
+                    </span>
+                </Link>
             </div>
             {/* Navigation - Top (Desktop) / Bottom (Mobile) */}
             <nav className="fixed right-0 bottom-0 left-0 z-[100] border-t bg-white px-6 py-3 shadow-[0_-8px_30px_rgba(0,0,0,0.08)] md:sticky md:top-0 md:bottom-auto md:border-t-0 md:border-b md:py-4 dark:bg-slate-900 dark:border-slate-800">
@@ -74,10 +78,12 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
                     </Link>
 
                     {/* Logo - Hidden on mobile bottom nav, visible on desktop */}
-                    <div className="hidden items-center gap-2 md:flex">
+                    <Link href="/" className="hidden items-center gap-2 md:flex hover:opacity-80 transition-opacity">
                         <Image src="/logo.jpg" alt="Logo" width={32} height={32} className="rounded-full" />
-                        <span className="text-lg font-black tracking-tighter text-primary">CHULI</span>
-                    </div>
+                        <span className="text-lg font-black tracking-tighter text-primary">
+                            CHULI<span className="text-slate-800 dark:text-accent">TIENDA</span>
+                        </span>
+                    </Link>
 
                     {/* Mobile Items */}
                     <div className="flex items-center gap-8 md:gap-4">

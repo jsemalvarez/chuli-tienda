@@ -25,6 +25,7 @@ export const metadata: Metadata = {
 };
 
 import { CartProvider } from "@/context/CartContext";
+import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
 
 export default function RootLayout({
   children,
@@ -38,6 +39,7 @@ export default function RootLayout({
       >
         <CartProvider>
           {children}
+          <WhatsAppFloatingButton />
         </CartProvider>
       </body>
     </html>
