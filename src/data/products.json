@@ -99,25 +99,25 @@
     ]
   },
   {
-    "id": 2,
-    "name": "Mate Listo Autocebante - 750ml",
-    "description": "La solución perfecta para los amantes del mate que están siempre en movimiento. Este Mate Listo combina un termo de alta calidad con un mate incorporado, permitiéndote cebar automáticamente de forma súper práctica.",
-    "price": 22500,
+    "id": 19,
+    "name": "Espejo de Mesa con Luz LED",
+    "description": "Elevá tu rutina de skincare y maquillaje al siguiente nivel",
+    "price": 13000,
     "originalPrice": null,
-    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769878309/mate_autocebante_750_ijszgq.webp",
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1770645058/espejo_con_luz_led_pa7rl6.webp",
     "categories": [
       "Hogar"
     ],
-    "featured": false,
-    "stock": false,
+    "featured": true,
+    "stock": true,
     "details": [
-      "Capacidad: 750 ml.",
-      "Material: Acero inoxidable de doble capa (mantiene la temperatura por horas).",
-      "Sistema: Autocebante (el agua sube al succionar o presionar).",
-      "Práctico: Ideal para viajes, oficina o estudiar."
+      "Iluminación Profesional: Equipado con un anillo de luces LED de alta densidad que simula la luz natural.",
+      "Rotación Multi-Ángulo (360°): Ajustalo como quieras. Su sistema giratorio te permite inclinarlo totalmente para encontrar el ángulo perfecto, ya sea que estés sentada o de pie frente a tu tocador.",
+      "Base Organizadora Inteligente: La base cóncava sirve como una bandeja perfecta para apoyar tus labiales, brochas, pinzas o las joyitas que usás a diario.",
+      "Diseño Minimalista y Portátil: Su estética limpia y moderna en color blanco combina con cualquier habitación."
     ]
   },
-    {
+  {
     "id": 3,
     "name": "Mini Pizarra Didáctica con Proyector",
     "description": "¡Despertá la creatividad de los más chicos con la pizarra mágica. Gracias a su tamaño pequeño, es ergonómica e ideal para niños a partir de los 3 años.",
@@ -136,6 +136,25 @@
       "Proyector de Dibujos: Solo hay que colocar un disco, encender la luz y ¡listo! Pueden calcar y pintar sus personajes favoritos.",
       "100% Portátil: Funciona a pilas, lo que permite llevar la diversión a la mesa, al auto o donde quieran (pilas no incluidas).",
       "Kit Completo: Incluye marcadores de colores, borrador y discos con variados dibujos para proyectar."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mate Listo Autocebante - 750ml",
+    "description": "La solución perfecta para los amantes del mate que están siempre en movimiento. Este Mate Listo combina un termo de alta calidad con un mate incorporado, permitiéndote cebar automáticamente de forma súper práctica.",
+    "price": 22500,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769878309/mate_autocebante_750_ijszgq.webp",
+    "categories": [
+      "Hogar"
+    ],
+    "featured": false,
+    "stock": false,
+    "details": [
+      "Capacidad: 750 ml.",
+      "Material: Acero inoxidable de doble capa (mantiene la temperatura por horas).",
+      "Sistema: Autocebante (el agua sube al succionar o presionar).",
+      "Práctico: Ideal para viajes, oficina o estudiar."
     ]
   },
   {
@@ -344,7 +363,7 @@
   },
   {
     "id": 18,
-    "name": " Marcadores Infantiles Mini x18",
+    "name": "Marcadores Infantiles Mini x18",
     "description": "Set de 18 marcadores de colores con presentación en envase portátil con diseño infantil. Su práctico envase con asa facilita el transporte y el guardado, perfecto para uso escolar y actividades creativas.",
     "price": 6500,
     "originalPrice": null,
