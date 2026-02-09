@@ -1,26 +1,5 @@
 [
   {
-    "id": 3,
-    "name": "Pizarra Didáctica con Proyector",
-    "description": "¡Despertá la creatividad de los más chicos con la pizarra mágica. Gracias a su tamaño pequeño, es ergonómica e ideal para niños a partir de los 3 años.",
-    "price": 27500,
-    "originalPrice": 39000,
-    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769879045/pizarra_didactica_con_royector_njdf4m.webp",
-    "categories": [
-      "Infantil",
-      "Juguetes",
-      "Regalos"
-    ],
-    "featured": true,
-    "stock": false,
-    "details": [
-      "Modelos Disponibles: Jirafa, Dinosaurio y Unicornio.",
-      "Proyector de Dibujos: Solo hay que colocar un disco, encender la luz y ¡listo! Pueden calcar y pintar sus personajes favoritos.",
-      "100% Portátil: Funciona a pilas, lo que permite llevar la diversión a la mesa, al auto o donde quieran (pilas no incluidas).",
-      "Kit Completo: Incluye marcadores de colores, borrador y discos con variados dibujos para proyectar."
-    ]
-  },
-  {
     "id": 9,
     "name": "Tender Vertical Reforzado - 3 Niveles",
     "description": "Diseñado para maximizar el espacio, este tender reforzado es apto tanto para interior como para exterior",
@@ -102,7 +81,7 @@
     "id": 1,
     "name": "Pizarra Mágica LED 20x30",
     "description": "Este panel de acrílico transparente te permite escribir, dibujar y crear mensajes que brillan gracias a su base con iluminación LED. Es perfecta como lámpara de noche decorativa o para que los más chicos se diviertan dibujando sin parar.",
-    "price": 18000,
+    "price": 20000,
     "originalPrice": null,
     "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769871505/pizarra_led_lf9xbn.webp",
     "categories": [
@@ -136,6 +115,27 @@
       "Material: Acero inoxidable de doble capa (mantiene la temperatura por horas).",
       "Sistema: Autocebante (el agua sube al succionar o presionar).",
       "Práctico: Ideal para viajes, oficina o estudiar."
+    ]
+  },
+    {
+    "id": 3,
+    "name": "Mini Pizarra Didáctica con Proyector",
+    "description": "¡Despertá la creatividad de los más chicos con la pizarra mágica. Gracias a su tamaño pequeño, es ergonómica e ideal para niños a partir de los 3 años.",
+    "price": 19000,
+    "originalPrice": null,
+    "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769879045/pizarra_didactica_con_royector_njdf4m.webp",
+    "categories": [
+      "Infantil",
+      "Juguetes",
+      "Regalos"
+    ],
+    "featured": true,
+    "stock": false,
+    "details": [
+      "Modelos Disponibles: Jirafa, Dinosaurio y Unicornio.",
+      "Proyector de Dibujos: Solo hay que colocar un disco, encender la luz y ¡listo! Pueden calcar y pintar sus personajes favoritos.",
+      "100% Portátil: Funciona a pilas, lo que permite llevar la diversión a la mesa, al auto o donde quieran (pilas no incluidas).",
+      "Kit Completo: Incluye marcadores de colores, borrador y discos con variados dibujos para proyectar."
     ]
   },
   {
@@ -243,7 +243,7 @@
     "id": 12,
     "name": "Set de Utensilios Premium – 12 Piezas con Soporte",
     "description": "Este set es el aliado perfecto para cuidar tus ollas y sartenes. Fabricados en silicona de grado alimenticio resistente al calor y mangos de madera ergonómicos, ofrecen durabilidad y un diseño moderno que queda increíble en cualquier mesada.",
-    "price": 21500,
+    "price": 20000,
     "originalPrice": null,
     "image": "https://res.cloudinary.com/ddeyvxay3/image/upload/v1769970737/set_utensilios_12piezas_mfj6ak.webp",
     "categories": [
